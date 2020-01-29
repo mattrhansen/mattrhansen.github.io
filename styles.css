@@ -1,37 +1,51 @@
-h1  {
-    color:purple;
-    font-size: 96px;
-}
-p {
-text-align:center;
-font-family: Arial, Helvetica, sans-serif;
-}
-img {
-height: 320px;
-/* width: 200px; */
-}
-em {
-text-transform: uppercase;
-font-style: initial;
-}
-body{
-background-color: blue;
-}
-#first {
-text-align:left;
+body {
+  font-family: 'Istok Web', sans-serif;
 }
 
-#second {
-
-/* text-align: right; */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Indie Flower', cursive;
 }
 
-.right{
-text-align:right;
-
+.navbar-brand {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
+.navbar-light .navbar-brand {
+  color: rgb(0, 0, 0);
 }
 
-.big{
-    font-size:32px;
+.navbar {
+  background-color: white;
 }
 
+.jumbotron {
+  background-attachment: fixed;
+  background-image: url(cloud.jpeg);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.footer img {
+  width: 100px;
+}
+.btn-outline-info {
+    color: black;
+    border-color: black;
+}
+
+.table .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+  font-size: 25px;
+}
+.table th {
+  font-size: 20px;
+  color: blue
+}
+
+.container {
+  max-width: 720px;
+}
